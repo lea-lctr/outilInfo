@@ -1,2 +1,75 @@
-bjr
-c' moi
+Exo 1)
+
+1) On a configuré Git en s'identifiant.
+
+2) 'git init' permet d'initialiser le repertoire courant comme etant maintenant sous le controle d’un gestionnaire de version.
+Le git ripository sur lequel on s'est placé a été initialisé;
+Le répertoir .git
+
+3) gedit 
+
+4) git status permet de savoir le statut : sur quelle branche on est, s'il y a des commits qui ont été faits, et montre les fichiers qui n'ont pas été commités.
+
+5) git add permet donc de selectionner le fichier qu'on veut ccommiter. On peut voir à present que le fichier est prêt à être commiter.
+
+6) on peut enfin commiter avec un message.
+
+7) Il n'y a plus rien à commiter.
+
+8) contrairement au git status qui montre qu'est-ce qu'il reste à commiter et tout, git log permet de voir les git commits qu'on a fait et avec le message.
+
+9) git diff permet de voir la dif entre le fichier qu'on a commité et les modifications qu'on a fait dessus, ont doit donc git add encore le fichier pour le mettre à jour.
+
+11) On peut voir tous les commits faits.
+
+12) Et enfin on peut pusher.
+
+12) On re-commit.
+
+Exo 2)
+
+2) j'ai pu cloner seulement l'aancien repository sur lequel je travaillais avant, éant donné que je n'étais pas là.
+
+3) donc je suis la branch main, et il est déjà à jour.
+
+5) J'ai ajouté sur mon propre depot du coup...
+
+6) Pas rencontré de problème lors du push car je suis seule à le faire.
+
+Je ne peux pas faire le reste des questions malheuresement.
+
+ Exo 3)
+
+1) le carctère est '&'.
+
+2) Le repertoire racine sous GNU/Linux s'appelle '/'.
+
+3) La commande 'cd ~/' permet de toujours retourner à la racine de mon compte.
+
+4) La commande ls ~/* : Affiche la liste de tous les fichiers et répertoires présents depuis HOME jusqu'à TP (aussi les fichiers cachés) :
+
+5) La commande qui permet de copier les ´
+fichiers ex2.c et IMG216.jpg dans le repertoire TP2 est 
+cp HOME/Documents/TP/TP1/ex1.c HOME/Documents/TP/TP2
+cp HOME/Documents/TP/TP1/ex2.c HOME/Documents/TP/TP2
+
+6) Ajouter le chemin du repertoire qui contient ´ a.out dans la variable PATH.
+
+7) le resultat serait 1 comme il y a qu'une ligne.
+
+8) Si on ne souhaite plus afficher les erreurs sur le terminal on fait :
+commande 2>erreurs.txt
+Qui redirige les erreurs vers un fichier.
+
+9) La commande ps -ef | grep -c evince permet de compter le nombre de processus en cours d'exécution sur le système qui correspondent au nom du processus "evince".
+
+10) La commande qui permet d’ajouter les droits en lecture et en ecriture uniquement au groupe panda sur le fichier ´ file1 est :
+chmod g+r,g+w file1
+Qui ajoute le droit de lecture et le droit d'écriture au groupe.
+
+11) La commande cut -f1,5 ../../../liste_main3_2023_2024.csv | grep Non est conçue pour extraire les colonnes 1 et 5 du fichier CSV spécifié (../../../liste_main3_2023_2024.csv) et ensuite filtrer les lignes qui contiennent le mot "Non" à l'aide de la commande grep. Donc le resultat est :
+3224931 Non
+3284840 Non
+4035745 Non
+4210027 Non
+3673118 Non
